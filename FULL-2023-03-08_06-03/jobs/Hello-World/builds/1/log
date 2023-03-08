@@ -1,0 +1,8 @@
+Started by user [8mha:////4MGRTQBDv4HAZSsdyMXybUL4XDoMNoW0AAkoPJFR+nm0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mvishal
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Hello-World
+[Hello-World] $ /bin/sh -xe /tmp/jenkins11518279609276703811.sh
++ mvn --version
+/tmp/jenkins11518279609276703811.sh: 2: mvn: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

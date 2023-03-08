@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.google.jenkins.plugins.persistentmaster.PersistentMasterPlugin plugin="google-cloud-backup@0.6">
+  <enableBackup>false</enableBackup>
+  <enableAutoRestore>false</enableAutoRestore>
+  <restoreOverwritesData>false</restoreOverwritesData>
+  <fullBackupIntervalHours>1</fullBackupIntervalHours>
+  <incrementalBackupIntervalMinutes>3</incrementalBackupIntervalMinutes>
+  <storageProvider class="com.google.jenkins.plugins.persistentmaster.storage.LocalFileStorageProvider">
+    <directory>/tmp</directory>
+  </storageProvider>
+  <backupScopes>
+    <com.google.jenkins.plugins.persistentmaster.scope.DefaultBackupScope/>
+  </backupScopes>
+</com.google.jenkins.plugins.persistentmaster.PersistentMasterPlugin>

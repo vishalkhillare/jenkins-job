@@ -1,0 +1,70 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Hello-World-Build</upstreamProject>
+            <upstreamUrl>job/Hello-World-Build/</upstreamUrl>
+            <upstreamBuild>3</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>HelloWorld-Test</upstreamProject>
+                <upstreamUrl>job/HelloWorld-Test/</upstreamUrl>
+                <upstreamBuild>3</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>admin</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@686.v6fd37018d7c2"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>JenkinsWar1-0.0.1-SNAPSHOT.war</string>
+          <string>6fe95443bd42423160c39126e277a3c4</string>
+        </entry>
+        <entry>
+          <string>JenkinsWar.war</string>
+          <string>6fe95443bd42423160c39126e277a3c4</string>
+        </entry>
+        <entry>
+          <string>JenkinsWar1-0.0.1-SNAPSHOT.pom</string>
+          <string>056194a4a49b04995e794248a7f6f0ca</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>12</queueId>
+  <timestamp>1678251650516</timestamp>
+  <startTime>1678251650521</startTime>
+  <result>SUCCESS</result>
+  <duration>3324</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/HelloWorld-Deploy-Test</workspace>
+  <hudsonVersion>2.375.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
